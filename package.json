@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "test-sdk",
   "version": "1.0.0",
   "description": "node sdk",
   "main": "src/index.ts",
