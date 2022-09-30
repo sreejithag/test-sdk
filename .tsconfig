@@ -1,0 +1,19 @@
+
+{
+  "compilerOptions": {
+    "allowJs":true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "declaration": true,
+    "removeComments": false,
+    "target": "es2017",
+    "strict": true,
+    "sourceMap": true,
+    "outDir": "./dist/tsc-out",
+    "baseUrl": "./",
+    "incremental": true,
+    "declarationDir": "dist/types",
+  },
+  "include": ["src/**/*", "index.js","proto/**/*"],
+  "exclude": ["node_modules", "test", "lib", "**/*spec.ts","dist",]
+}
